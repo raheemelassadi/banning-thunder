@@ -6,8 +6,12 @@ function App() {
     <>
       <div className=" bg-[url('./bg1.jpg')] bg-cover bg-center h-3/4 box-border">
         <nav className="text-md md:text-xl text-white font-Jakarta font-semibold drop-shadow-lg flex justify-between pt-8 px-8 box-border">
-          <h1 className="cursor-pointer">Banning Thunder Deals </h1>
-          <h1 className="cursor-pointer">Menu</h1>
+          <h1 className="cursor-pointer transition-all delay-50 hover:border-b-8">
+            Banning Thunder Deals
+          </h1>
+          <h1 className="cursor-pointer transition-all delay-50 hover:border-b-8">
+            Menu
+          </h1>
         </nav>
         <div className="flex justify-center flex-col items-center box-border">
           <h1 className="px-28 text-3xl md:text-5xl text-white font-Jakarta font-semibold text-center drop-shadow-lg mb-11 mt-28 md:w-[650px] w-[490px]">
@@ -18,7 +22,7 @@ function App() {
             deals at our thrift shop for amazing treasures at unbeatable prices.
             Selling to us sustains thriftiness and supports your future.
           </p>
-          <button className="w-40 px-3 py-2 text-sm md:text-md rounded-full bg-yellow-500 md:w-44 mb-20 md:py-3 md:px-9 hover:bg-opacity-80 box-border">
+          <button className="w-40 px-3 py-2 text-sm md:text-md rounded-full bg-yellow-500 md:w-44 mb-20 md:py-3 md:px-9 hover:bg-opacity-90 box-border hover:scale-110 transition-all delay-50">
             Contact Us
           </button>
         </div>
