@@ -130,7 +130,11 @@ function App() {
         <h1 className="uppercase leading-loose opacity-50">Find Us On</h1>
         <div className="flex justify-center gap-8 md:gap-32 align-middle items-center box-border">
           <div className="">
-            <img src="google.svg" alt="" className="images w-48" />
+            <img
+              src="https://gcdnb.pbrd.co/images/SUGIj6HPaNaI.png?o=1"
+              alt=""
+              className="images w-48"
+            />
           </div>
 
           <div className="w-48">
