@@ -141,7 +141,7 @@ function App() {
           </div>
 
           <div className="w-48">
-            <img src="facebookthree.png" alt="" />
+            <img src="https://pasteboard.co/ekwKAW3by3w0.png" alt="" />
           </div>
         </div>
       </div>
