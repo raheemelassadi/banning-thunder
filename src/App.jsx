@@ -141,7 +141,10 @@ function App() {
           </div>
 
           <div className="w-48">
-            <img src="https://pasteboard.co/ekwKAW3by3w0.png" alt="" />
+            <img
+              src="https://gcdnb.pbrd.co/images/ekwKAW3by3w0.png?o=1"
+              alt=""
+            />
           </div>
         </div>
       </div>
