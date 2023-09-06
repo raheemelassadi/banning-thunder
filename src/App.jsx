@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <div className=" bg-[url('./bg1.jpg')] bg-cover bg-center h-3/4 box-border overflow-x-hidden font-Jakarta scroll-smooth">
+      <div className=" bg-[url('/bg1.jpg')] bg-cover bg-center h-3/4 box-border overflow-x-hidden font-Jakarta scroll-smooth">
         <nav className="text-md md:text-xl text-white font-Jakarta font-semibold drop-shadow-lg flex justify-between pt-8 px-8 box-border">
           <h1 className="cursor-pointer transition-all delay-50 hover:border-b-4 box-border ">
             Banning Thunder Deals
@@ -130,7 +130,7 @@ function App() {
         <h1 className="uppercase leading-loose opacity-50">Find Us On</h1>
         <div className="flex justify-center gap-8 md:gap-32 align-middle items-center box-border">
           <div className="">
-            <img src="google.svg" alt="" className="images w-48" />
+            <img src="./assets/google.svg" alt="" className="images w-48" />
           </div>
 
           <div className="w-48">
@@ -141,7 +141,7 @@ function App() {
           </div>
 
           <div className="w-48">
-            <img src="/facebookthree.png" alt="" />
+            <img src="./assets/facebookthree.png" alt="" />
           </div>
         </div>
       </div>
